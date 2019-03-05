@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 
-class NewUpcommingReleases extends Component {
+class MoreUpcommingReleases extends Component {
     render() {
         return (
-            <div className="new-upcomming-releases">
-            Hello, world! I am a NewUpcommingReleases component.
+            <div className="more-upcomming-releases">
+            <h2>View More Upcomming Releases >></h2>
             </div>
         );
     }
 }
+
+export default MoreUpcommingReleases;

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import MovieList from "../components/MovieList";
+import MoreUpcommingReleases from "../components/MoreUpcommingReleases";
 
 class UpcommingFilmRealease extends Component {
     constructor(props){
@@ -39,6 +40,7 @@ class UpcommingFilmRealease extends Component {
             <div className="upcomming-film-release">
             <h2>Upcomming Film Releases</h2>
             <MovieList data={this.state.data} />
+            <MoreUpcommingReleases />
             </div>
         );
     }
